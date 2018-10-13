@@ -29,7 +29,7 @@ https://stuhot.at.tw/
     ```
     2. 確認是否正確： 
     > ../application/config/config.php
-    ```php=26
+    ```
     $config['base_url'] = 'http://localhost/stuhot/';
     ```
     > ../.htaccess
@@ -45,6 +45,8 @@ https://stuhot.at.tw/
 
     3. 資料庫建置：
         > ../stuhot.sql
-        Database Name = footprint
-        Character set = utf8 -- UTF-8 Unicode
-        Collation = utf8_unicode_ci
+    ```
+	Database Name = stuhot
+	Character set = utf8 -- UTF-8 Unicode
+	Collation = utf8_unicode_ci
+    ```
