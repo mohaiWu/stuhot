@@ -50,3 +50,6 @@ https://stuhot.at.tw/
 	Character set = utf8 -- UTF-8 Unicode
 	Collation = utf8_unicode_ci
     ```
+
+    4. Email SMTP發送設定：
+    > ../application/config/email.php
